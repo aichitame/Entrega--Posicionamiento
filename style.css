@@ -1,0 +1,68 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #33d836;
+  border-style: dashed;
+}
+
+main {
+  border-style: dashed;
+  margin: 1px;
+  padding: 1px;
+}
+
+header{
+  margin: 1px;
+  padding: 0.3em;
+  color: #33d836;
+  font-size: 15px;
+  margin-bottom: 15px;
+  object-position: absolute;
+  border-style: dashed;
+
+
+}
+
+.feature  {
+  margin-top: 200px;
+  padding: 0;
+  margin: 1px;
+  position: sticky;
+  text-align: center;
+  top: 40%;
+  border-style: dashed;
+}
+
+div {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.sidebar {
+  margin-top: 20px;
+  border-style: dashed;
+  position:fixed;
+  right:10px;
+  padding: 4px;
+}
+
+footer {
+  margin-top: 20%;
+  border-style: dashed;
+  position: fixed;
+  bottom: 0;
+  left: 40%;
+  padding:2px;
+}
